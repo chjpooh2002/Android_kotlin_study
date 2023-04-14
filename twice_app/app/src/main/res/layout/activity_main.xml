@@ -11,63 +11,143 @@
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="200dp">
-       <ImageView
-           android:scaleType="fitXY"
-           android:src="@drawable/member_1"
-           android:layout_width="120dp"
-           android:layout_height="150dp"/>
-       <ImageView
-           android:scaleType="fitXY"
-           android:src="@drawable/member_2"
-           android:layout_width="120dp"
-           android:layout_height="150dp"/>
-       <ImageView
-           android:scaleType="fitXY"
-           android:src="@drawable/member_3"
-           android:layout_width="120dp"
-           android:layout_height="150dp"/>
+       
+       <androidx.cardview.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           app:cardCornerRadius="50dp">
+
+           <ImageView
+               android:scaleType="fitXY"
+               android:src="@drawable/member_1"
+               android:layout_width="120dp"
+               android:layout_height="150dp"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           app:cardCornerRadius="50dp">
+
+           <ImageView
+               android:scaleType="fitXY"
+               android:src="@drawable/member_2"
+               android:layout_width="120dp"
+               android:layout_height="150dp"/>
+       </androidx.cardview.widget.CardView>
+
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           app:cardCornerRadius="50dp">
+
+           <ImageView
+               android:scaleType="fitXY"
+               android:src="@drawable/member_3"
+               android:layout_width="120dp"
+               android:layout_height="150dp"/>
+
+       </androidx.cardview.widget.CardView>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
 
-        <ImageView
-            android:scaleType="fitXY"
-            android:layout_width="120dp"
-            android:layout_height="150dp"
-            android:src="@drawable/member_4" />
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/member_4" />
+        </androidx.cardview.widget.CardView>
 
-        <ImageView
-            android:scaleType="fitXY"
-            android:layout_width="120dp"
-            android:layout_height="150dp"
-            android:src="@drawable/member_5" />
 
-        <ImageView
-            android:scaleType="fitXY"
-            android:layout_width="120dp"
-            android:layout_height="150dp"
-            android:src="@drawable/member_6" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/member_5" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/member_6" />
+
+        </androidx.cardview.widget.CardView>
+
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp">
-        <ImageView
-            android:scaleType="fitXY"
-            android:src="@drawable/member_7"
-            android:layout_width="120dp"
-            android:layout_height="150dp"/>
-        <ImageView
-            android:scaleType="fitXY"
-            android:src="@drawable/member_8"
-            android:layout_width="120dp"
-            android:layout_height="150dp"/>
-        <ImageView
-            android:scaleType="fitXY"
-            android:src="@drawable/member_9"
-            android:layout_width="120dp"
-            android:layout_height="150dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/member_7"
+                android:layout_width="120dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/member_8"
+                android:layout_width="120dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/member_9"
+                android:layout_width="120dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </LinearLayout>
